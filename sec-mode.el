@@ -32,7 +32,7 @@
 	("^\\(window2?\\|thresh[0-9]*\\)=\\([0-9]+\\)$" . (2 font-lock-constant-face))
 	("^\\(window2?\\|thresh[0-9]*\\)=\\(.*\\)" . (2 font-lock-warning-face))
 
-	("^pattern=\\(.*\\)" . (1 font-lock-string-face))
+	("^pattern2?=\\(.*\\)" . (1 font-lock-string-face))
 
 	("\\$[0-9]+" . font-lock-variable-name-face)
 	("%[a-zA-z0-9\.]+" . font-lock-variable-name-face)))
